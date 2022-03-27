@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home3">
+    <fragment
+        android:id="@+id/home3"
+        android:name="com.example.simunade_ads2021.fragments.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home3_to_creditos2"
+            app:destination="@id/creditos2" />
+        <action
+            android:id="@+id/action_home3_to_sobre2"
+            app:destination="@id/sobre2" />
+        <action
+            android:id="@+id/action_home3_to_questao1"
+            app:destination="@id/questao1" />
+    </fragment>
+    <fragment
+        android:id="@+id/creditos2"
+        android:name="com.example.simunade_ads2021.fragments.Creditos"
+        android:label="fragment_creditos"
+        tools:layout="@layout/fragment_creditos" >
+        <action
+            android:id="@+id/action_creditos2_to_home3"
+            app:destination="@id/home3" />
+    </fragment>
+    <fragment
+        android:id="@+id/sobre2"
+        android:name="com.example.simunade_ads2021.fragments.Sobre"
+        android:label="fragment_sobre"
+        tools:layout="@layout/fragment_sobre" >
+        <action
+            android:id="@+id/action_sobre2_to_home3"
+            app:destination="@id/home3" />
+    </fragment>
+    <fragment
+        android:id="@+id/questao1"
+        android:name="com.example.simunade_ads2021.fragments.Questao1"
+        android:label="fragment_questao1"
+        tools:layout="@layout/fragment_questao1" />
+</navigation>
