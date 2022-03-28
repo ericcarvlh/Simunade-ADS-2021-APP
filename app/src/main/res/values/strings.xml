@@ -9,15 +9,25 @@
     <string name="home">Home</string>
     <string name="creditos">Creditos</string>
     <string name="sobre">Sobre</string>
-    <string name="q1">Questão 1</string>
+    <string name="prova">Prova</string>
+    <string name="text1">Texto I</string>
+    <string name="text2">Texto II</string>
+
+    <!-- Botões gerais -->
+    <string name="anterior"></string>
     <string name="um">1</string>
     <string name="dois">2</string>
     <string name="tres">3</string>
+    <string name="quatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="sete">7</string>
     <string name="proximo">></string>
     <string name="finalizar">Finalizar</string>
     <string name="prox">Proxima</string>
 
-
+    <!-- Textos referentes à questão 1 -->
+    <string name="q1">Questão 1</string>
     <string name="txtq1">A chance de uma criança de baixa renda ter um futuro melhor que a realidade em que nasceu está,
 em maior ou menor grau, relacionada à escolaridade e ao nível de renda de seus pais. Nos países ricos,
 o "elevador social" anda mais rápido. Nos emergentes, mais devagar. No Brasil, ainda mais lentamente.
@@ -32,21 +42,144 @@ de acesso à saúde e maior probabilidade de frequentar uma escola com ensino de
 A educação precária, em geral, limita as opções para esses jovens no mercado de trabalho.
 Sobram-lhes empregos de baixa remuneração, em que a possibilidade de crescimento salarial para
 quem tem pouca qualifi cação é pequena – e a chance de perpetuação do ciclo de pobreza, grande.</string>
-
     <string name="fonteq1"> LEMOS, V. Brasil é o segundo pior em mobilidade social em ranking de 30 países. BBC News Brasil, 15 jun. 2018 (adaptado).</string>
-
-    <string name="enunciado">A parti r das informações apresentadas, é correto afi rmar que</string>
-    <string name="opca">o fator ambiental e o fator demográfi co afetam a mobilidade social observada, sendo ela menor nos
+    <string name="enunciadoq1">A parti r das informações apresentadas, é correto afi rmar que</string>
+    <string name="opcaq1">o fator ambiental e o fator demográfi co afetam a mobilidade social observada, sendo ela menor nos
 países que apresentam as maiores taxas de natalidade.</string>
-    <string name="opcb">a baixa organização social dos economicamente menos favorecidos determina a baixa mobilidade
+    <string name="opcbq1">a baixa organização social dos economicamente menos favorecidos determina a baixa mobilidade
 social da base para o topo da pirâmide.</string>
-    <string name="opcc">a mobilidade social é caracterizada por um fator ancestral que se revela ao longo das gerações, sendo
+    <string name="opccq1">a mobilidade social é caracterizada por um fator ancestral que se revela ao longo das gerações, sendo
 um limitador da efi cácia de políti cas públicas de redução das desigualdades sociais.</string>
-    <string name="opcd">a análise de mobilidade social permite a observação de um ciclo vicioso, que se caracteriza por uma
+    <string name="opcdq1">a análise de mobilidade social permite a observação de um ciclo vicioso, que se caracteriza por uma
 subida nas camadas sociais seguida de uma queda, repeti ndo-se esse ciclo de modo sucessivo.</string>
-    <string name="opce">a ascensão social depende de fatores viabilizadores que estão fora do alcance das camadas pobres,
+    <string name="opceq1">a ascensão social depende de fatores viabilizadores que estão fora do alcance das camadas pobres,
 o que ocasiona confl itos sociais em busca do acesso a tais fatores.</string>
-    <string name="prova">Prova</string>
+
+    <!-- Textos referentes à questão 2 -->
+    <string name="q2">Questão 2</string>
+    <string name="txtq2">Em alguns países da Europa, permite-se que um produto de menor valor estéti co seja comercializado.
+Estamos falando de um pepino deformado ou de uma cebola pequena, mas não de um produto
+contaminado com resíduos químicos ou agentes biológicos. No caso do Brasil, o problema vai além da
+aparência, porque há hortaliças ruins – contaminadas, murchas, machucadas – que chegam às bancas
+para ser comercializadas.
+ Mas, se nos dois contextos há perda de alimentos e preconceito em relação às hortaliças fora do padrão
+visual, mas boas para o consumo, quais seriam as alternati vas para evitar o desperdício e melhorar a
+qualidade dos produtos? Para os pesquisadores do assunto, não adianta replicar a experiência europeia no
+Brasil, de exigir hortaliças esteti camente perfeitas, porque também teríamos produtos sendo desprezados
+ainda na etapa de produção. Não devemos passar de um mercado pouco exigente, que gera desperdício
+no varejo e nas residências, para um mercado exigente que gera perda no campo.
+ A solução do problema é conscienti zar os diversos elos da cadeia produti va, especialmente varejistas
+e consumidores, para que sejam esclarecidos sobre quais aspectos da aparência das hortaliças
+comprometem a qualidade. Quanto maior a exigência do mercado por hortaliças de aparência perfeita,
+maior o desperdício de alimentos. Por sua vez, quanto maior a exigência por hortaliças sem danos,
+causados pela falta de cuidado e pela falta de higiene, menor será a perda de alimentos e maior a
+qualidade da alimentação da população brasileira.</string>
+    <string name="fonteq2_txt1">Disponível em: htt ps://www.facebook.com/embrapa/photos/a.609357055926350/733391400189581/?type=1theater.
+Acesso em: 27 maio 2020.</string>
+    <string name="fonteq2_txt2">Disponível em: htt ps://www.embrapa.br/busca-de-noti cias/-/noti cia/29626389/manuseio-correto-preserva-a-qualidade-e
+-a-vida-uti l-das-hortalicas. Acesso em: 27 maio 2020 (adaptado).</string>
+    <string name="enunciadoq2_pt1"> Considerando as informações apresentadas nos textos, avalie as asserções a seguir e a relação proposta
+        entre elas.</string>
+    <string name="enunciadoq2_pt2">I. O texto I sinteti za uma informação principal do texto II, ao apresentar critérios disti nti vos de
+alterações visuais que têm efeitos puramente estéti cos em produtos alimentí cios daquelas que
+têm implicações na qualidade desses produtos.</string>
+    <string name="porque">PORQUE</string>
+    <string name="enunciadoq2_pt3">II. O texto II divulga que o aumento das perdas na cadeia produti va de hortaliças no Brasil
+é proporcional à elevação de exigências dos consumidores pela aparência de produtos
+        agropecuários.</string>
+    <string name="enunciadoq2_pt4">A respeito dessas asserções, assinale a opção correta.</string>
+    <string name="opcaq2">As asserções I e II são proposições verdadeiras, e a II é uma justi fi cati va correta da I.</string>
+    <string name="opcbq2">As asserções I e II são proposições verdadeiras, mas a II não é uma justi fi cati va correta da I.</string>
+    <string name="opccq2">A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.</string>
+    <string name="opcdq2"> A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.</string>
+    <string name="opceq2">As asserções I e II são proposições falsas.</string>
+
+    <!-- Textos referentes à questão 3 -->
+    <string name="q3">Questão 3</string>
+    <string name="txtq3">Na Alemanha nazista, no auge da Segunda Guerra Mundial, surgiu a necessidade de abrir mais espaço
+para os veículos automoti vos. Com muitos ciclistas, as bicicletas viraram um empecilho, forçando a
+criação de um espaço exclusivo para elas – talvez as primeiras ciclovias do mundo. Mas, se na década
+de 1940 os veículos eram prioridade, hoje, o uso de bicicletas – e das ciclovias – surge como uma das
+principais alternati vas para melhorar a qualidade de vida nas grandes metrópoles. Quando políti cas
+públicas incenti vam o uso de bicicletas como meio de transporte para curtas e médias distâncias, um
+novo panorama se abre.</string>
+    <string name="fonteq3_txt1">COSTA, J. Ciclovias ajudam a humanizar o espaço urbano. Ciência e Cultura . v. 68, n. 2, São Paulo, 2016 (adaptado) .</string>
+    <string name="fonteq3_txt2">Disponível em: htt p://dopedal.blogspot.com/2012/05/charge-do-silverio-voz-da-serra.html. Acesso em: 29 de abr. 2020.</string>
+    <string name="enunciadoq3_pt1">Considerando as informações apresentadas e o uso de bicicletas como alternati va para melhorar a
+qualidade de vida nas cidades, avalie as afi rmações a seguir.</string>
+    <string name="enunciadoq3_pt2">I. Dado que as bicicletas são veículos que ocupam pouco espaço na malha viária, prescinde-se de
+investi mentos públicos em construção de ciclovias, sendo prioritárias campanhas de conscienti zação
+de motoristas a respeito dos benefí cios do uso da bicicleta como meio de transporte.</string>
+    <string name="enunciadoq3_pt3">II. O uso das bicicletas como meio de transporte contribui para a melhoria da qualidade de vida nas
+grandes metrópoles, pois elas não emitem poluentes, além de esse uso proporcionar a práti ca de
+ati vidade física.</string>
+    <string name="enunciadoq3_pt4">III. A parti r da Segunda Guerra Mundial, durante o governo da Alemanha nazista, o uso da bicicleta
+como meio de transporte tornou-se efi caz e passou a prevalecer nas cidades europeias.</string>
+    <string name="enunciadoq3_pt5">É correto o que se afi rma em</string>
+    <string name="opcaq3">I, apenas.</string>
+    <string name="opcbq3">II, apenas.</string>
+    <string name="opccq3">I e III, apenas.</string>
+    <string name="opcdq3">II e III, apenas.</string>
+    <string name="opceq3">I, II e III.</string>
+
+    <!-- Textos referentes à questão 4 -->
+    <string name="q4">Qustão 4</string>
+    <string name="txtq4">Além do contexto econômico, o avanço da tecnologia também é um dos responsáveis pelo aumento dos
+trabalhadores informais. E a tendência de contratação de freelancers por meio de plataformas digitais,
+como aplicati vos de delivery e de mobilidade urbana, ganhou até um nome: Gig Economy , ou economia
+dos bicos. Para os gigantes de tecnologia detentores desses aplicati vos, os motoristas são trabalhadores
+autônomos, que não possuem vínculo empregatí cio. Além de não estarem sujeitos a nenhuma
+regulamentação e proteção legal, os profi ssionais que desenvolvem esse ti po de trabalho deixam de
+contribuir para a Previdência Social e de possuir benefí cios como Fundo de Garanti a por Tempo de
+Serviço (FGTS), férias e décimo terceiro salário. Não obstante, ainda arcam com todo o custo da ati vidade
+que exercem. Em uma reportagem que ouviu alguns desses trabalhadores, motoristas afi rmaram sofrer
+com problemas de coluna e com o estresse no trânsito, além das longas jornadas de trabalho. Por esses
+moti vos, a Gig Economy está no centro de uma discussão mundial acerca da responsabilidade dessas
+companhias milionárias sobre as condições de trabalho da mão de obra que contratam. No meio do limbo
+jurídico, quem sofre são os trabalhadores dessas plataformas, que fi cam duplamente desprotegidos ―
+pelas empresas e pelo Estado.</string>
+    <string name="fonteq4"> Disponível em: htt ps://exame.abril.com.br/carreira/quais-sao-as-consequencia-do-trabalho-informal-no-pais/.
+Acesso em: 18 abr. 2020 (adaptado).</string>
+    <string name="enunciadoq4_pt1">A parti r das informações apresentadas, avalie as asserções a seguir e a relação proposta entre elas.</string>
+    <string name="enunciadoq4_pt2">I. Trabalhadores autônomos informais que atuam em plataformas digitais sem qualquer vínculo
+empregatí cio, desprotegidos de regulamentação ou lei trabalhista, compõem a Gig Economy</string>
+    <string name="enunciadoq4_pt3">II. Os trabalhadores, na Gig Economy , arcam com todos os custos necessários para desempenhar
+o seu trabalho, ganham por produção e enfrentam longas jornadas diárias, o que os deixa mais
+desgastados e com problemas de saúde.</string>
+    <!-- Alguns textos da questão 4 eu reaproveitei da questão 2 pois era os mesmos textos -->
+    
+    <!-- Textos referente à questão 5 -->
+    <string name="q5">Questão 5</string>
+    <string name="txtq5_t1">Segundo o Ministério da Saúde, em 2017 o Brasil registrou uma média nacional de 5,7 óbitos para
+100 mil habitantes. Na população indígena, foi registrado um número de óbitos três vezes maior que
+a média nacional – 15,2. Destes registros, 44,8% (aproximadamente, 6,8 óbitos), são suicídios de
+crianças e adolescentes entre 10 e 19 anos. Esses dados contrastam com o panorama nacional,
+em que o maior índice é entre adolescentes e adultos de 15 a 20 anos.</string>
+    <string name="txtq5_t2">Evidências apontam que, em determinadas minorias étnico-raciais, como os indígenas (aborígines ou
+populações nati vas), o suicídio entre crianças apresenta taxas bem mais elevadas do que as observadas
+na população geral. No Brasil, o enforcamento foi uti lizado mais frequentemente entre indígenas do que
+entre não indígenas, não se observando, no primeiro grupo, suicídios por intoxicação ou por armas de
+fogo. O mapa a seguir apresenta a distribuição dos óbitos por suicídio entre crianças e adolescentes
+indígenas no Brasil, entre os anos de 2010 e 2014.</string>
+    <string name="fonteq5_txt1">Disponível em: htt ps://www.cvv.org.br/blog/o-suicidio-do-povo-indigena/. Acesso em: 30 de abr. 2020 (adaptado).</string>
+    <string name="fonteq5_txt2">SOUZA, M. Mortalidade por suicídio entre crianças indígenas no Brasil. Caderno de Saúde Pública, v.35, Rio de Janeiro, 2019 (adaptado).</string>
+    <string name="enunciadoq5_pt1">Considerando as informações apresentadas e o alto índice de suicídio da população indígena, avalie as
+afi rmações a seguir.</string>
+    <string name="enunciadoq5_pt2">I. O elevado índice de suicídios entre crianças e adolescentes indígenas no país evidencia a 
+necessidade de ações com foco nos direitos fundamentais desses indivíduos.</string>
+    <string name="enunciadoq5_pt3">II. Os estados do Pará e de Tocanti ns são os que possuem os maiores índices de suicídio de indígenas
+na faixa etária de 10 a 14 anos.</string>
+    <string name="enunciadoq5_pt4">III. Os povos das tribos originárias do Brasil, no que tange a sua história e preservação cultural,
+não estão amparados por direitos e garantias constitucionais.</string>
+    <string name="enunciadoq5_pt5">IV. O estabelecimento de ações preventi vas ao suicídio nas comunidades indígenas deve considerar
+os elementos globais que afetam a população em geral, na faixa etária entre 15 e 20 anos.</string>
+    <string name="enunciadoq5_pt6">É correto apenas o que se afi rma em</string>
+    <string name="opcaq5">I.</string>
+    <string name="opcbq5">II.</string>
+    <string name="opccq5"> I e III.</string>
+    <string name="opcdq5">II e IV.</string>
+    <string name="opceq5">III e IV.</string>
+
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>

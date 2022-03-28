@@ -41,5 +41,63 @@
         android:id="@+id/questao1"
         android:name="com.example.simunade_ads2021.fragments.Questao1"
         android:label="fragment_questao1"
-        tools:layout="@layout/fragment_questao1" />
+        tools:layout="@layout/fragment_questao1" >
+        <action
+            android:id="@+id/action_questao1_to_questao2"
+            app:destination="@id/questao2" />
+        <action
+            android:id="@+id/action_questao1_to_questao3"
+            app:destination="@id/questao3" />
+    </fragment>
+    <fragment
+        android:id="@+id/questao2"
+        android:name="com.example.simunade_ads2021.fragments.Questao2"
+        android:label="fragment_questao2"
+        tools:layout="@layout/fragment_questao2" >
+        <action
+            android:id="@+id/action_questao2_to_questao3"
+            app:destination="@id/questao3" />
+        <action
+            android:id="@+id/action_questao2_to_questao1"
+            app:destination="@id/questao1" />
+        <action
+            android:id="@+id/action_questao2_to_questao4"
+            app:destination="@id/questao4" />
+    </fragment>
+    <fragment
+        android:id="@+id/questao3"
+        android:name="com.example.simunade_ads2021.fragments.Questao3"
+        android:label="fragment_questao3"
+        tools:layout="@layout/fragment_questao3" >
+        <action
+            android:id="@+id/action_questao3_to_questao4"
+            app:destination="@id/questao4" />
+        <action
+            android:id="@+id/action_questao3_to_questao5"
+            app:destination="@id/questao5" />
+        <action
+            android:id="@+id/action_questao3_to_questao2"
+            app:destination="@id/questao2" />
+    </fragment>
+    <fragment
+        android:id="@+id/questao4"
+        android:name="com.example.simunade_ads2021.fragments.Questao4"
+        android:label="fragment_questao4"
+        tools:layout="@layout/fragment_questao4" >
+        <action
+            android:id="@+id/action_questao4_to_questao5"
+            app:destination="@id/questao5" />
+        <action
+            android:id="@+id/action_questao4_to_questao3"
+            app:destination="@id/questao3" />
+    </fragment>
+    <fragment
+        android:id="@+id/questao5"
+        android:name="com.example.simunade_ads2021.fragments.Questao5"
+        android:label="fragment_questao5"
+        tools:layout="@layout/fragment_questao5" >
+        <action
+            android:id="@+id/action_questao5_to_questao4"
+            app:destination="@id/questao4" />
+    </fragment>
 </navigation>

@@ -5,7 +5,11 @@
       <map>
         <entry key="..\:/Users/Paulo Felipe/AndroidStudioProjects/SimunadeADS2021/app/src/main/res/layout/activity_main.xml" value="0.17300724637681159" />
         <entry key="..\:/Users/Paulo Felipe/AndroidStudioProjects/SimunadeADS2021/app/src/main/res/layout/fragment_home.xml" value="0.2" />
-        <entry key="..\:/Users/Paulo Felipe/AndroidStudioProjects/SimunadeADS2021/app/src/main/res/layout/fragment_questao1.xml" value="0.128" />
+        <entry key="..\:/Users/Paulo Felipe/AndroidStudioProjects/SimunadeADS2021/app/src/main/res/layout/fragment_questao1.xml" value="0.1" />
+        <entry key="..\:/Users/Paulo Felipe/AndroidStudioProjects/SimunadeADS2021/app/src/main/res/layout/fragment_questao2.xml" value="0.264" />
+        <entry key="..\:/Users/Paulo Felipe/AndroidStudioProjects/SimunadeADS2021/app/src/main/res/layout/fragment_questao3.xml" value="0.264" />
+        <entry key="..\:/Users/Paulo Felipe/AndroidStudioProjects/SimunadeADS2021/app/src/main/res/layout/fragment_questao4.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/Paulo Felipe/AndroidStudioProjects/SimunadeADS2021/app/src/main/res/layout/fragment_questao5.xml" value="0.1598731884057971" />
       </map>
     </option>
   </component>
