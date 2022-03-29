@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/home3">
+    app:startDestination="@id/questao7">
     <fragment
         android:id="@+id/home3"
         android:name="com.example.simunade_ads2021.fragments.Home"
@@ -99,5 +99,29 @@
         <action
             android:id="@+id/action_questao5_to_questao4"
             app:destination="@id/questao4" />
+        <action
+            android:id="@+id/action_questao5_to_questao6"
+            app:destination="@id/questao6" />
+    </fragment>
+    <fragment
+        android:id="@+id/questao6"
+        android:name="com.example.simunade_ads2021.fragments.Questao6"
+        android:label="fragment_questao6"
+        tools:layout="@layout/fragment_questao6" >
+        <action
+            android:id="@+id/action_questao6_to_questao5"
+            app:destination="@id/questao5" />
+        <action
+            android:id="@+id/action_questao6_to_questao7"
+            app:destination="@id/questao7" />
+    </fragment>
+    <fragment
+        android:id="@+id/questao7"
+        android:name="com.example.simunade_ads2021.fragments.Questao7"
+        android:label="fragment_questao7"
+        tools:layout="@layout/fragment_questao7" >
+        <action
+            android:id="@+id/action_questao7_to_questao6"
+            app:destination="@id/questao6" />
     </fragment>
 </navigation>

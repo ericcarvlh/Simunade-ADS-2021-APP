@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Questao6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q6"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt_anterior"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/anterior"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/seis"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/bt_q7"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sete"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/bt_q8"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/oito"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/bt_prox"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/proximo"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtq6"
+            android:layout_marginTop="15dp"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:background="@color/cinza_claro"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fonteq6"
+            android:layout_marginTop="10dp"
+            android:textSize="8dp"
+            android:layout_marginLeft="5dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/laranja_forte"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/enunciadoq6_pt1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/enunciadoq6_pt2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/porque"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/enunciadoq6_pt3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/enunciadoq2_pt4" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/opcaq2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/opcbq2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/opccq2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/opcdq2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/opceq2" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_finalizar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="60dp"
+                android:text="@string/finalizar" />
+
+            <Button
+                android:id="@+id/bt_proxima"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prox" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
