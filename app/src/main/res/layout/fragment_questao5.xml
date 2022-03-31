@@ -30,7 +30,6 @@
                 android:layout_weight="1"/>
 
             <Button
-                android:id="@+id/bt_selecionada"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="@string/cinco"
@@ -38,7 +37,7 @@
                 android:layout_weight="1"/>
 
             <Button
-                android:id="@+id/bt_q2"
+                android:id="@+id/bt_q6"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="@string/seis"
@@ -46,7 +45,7 @@
                 android:layout_weight="1"/>
 
             <Button
-                android:id="@+id/bt_q3"
+                android:id="@+id/bt_q7"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="@string/sete"
@@ -219,6 +218,7 @@
                 android:text="@string/finalizar" />
 
             <Button
+                android:id="@+id/bt_proxima"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/prox" />

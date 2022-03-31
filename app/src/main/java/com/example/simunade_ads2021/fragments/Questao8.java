@@ -12,18 +12,19 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.simunade_ads2021.R;
-import com.example.simunade_ads2021.databinding.FragmentQuestao7Binding;
+import com.example.simunade_ads2021.databinding.FragmentQuestao8Binding;
 
 
-public class Questao7 extends Fragment {
-    private FragmentQuestao7Binding binding;
+public class Questao8 extends Fragment {
+    private FragmentQuestao8Binding binding;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        binding = FragmentQuestao7Binding.inflate(inflater, container, false);
-        return  binding.getRoot();
+        binding = FragmentQuestao8Binding.inflate(inflater, container, false);
+        return binding.getRoot();
     }
 
     @Override
@@ -31,19 +32,16 @@ public class Questao7 extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         binding.btAnterior.setOnClickListener(V->{
-            NavHostFragment.findNavController(Questao7.this).navigate(R.id.action_questao7_to_questao6);
-        });
-        binding.btQ8.setOnClickListener(V->{
-            NavHostFragment.findNavController(Questao7.this).navigate(R.id.action_questao7_to_questao8);
+            NavHostFragment.findNavController(Questao8.this).navigate(R.id.action_questao8_to_questao7);
         });
         binding.btQ9.setOnClickListener(V->{
-            NavHostFragment.findNavController(Questao7.this).navigate(R.id.action_questao7_to_questao9);
+            NavHostFragment.findNavController(Questao8.this).navigate(R.id.action_questao8_to_questao9);
         });
         binding.btProx.setOnClickListener(V->{
-            NavHostFragment.findNavController(Questao7.this).navigate(R.id.action_questao7_to_questao8);
+            NavHostFragment.findNavController(Questao8.this).navigate(R.id.action_questao8_to_questao9);
         });
         binding.btProxima.setOnClickListener(V->{
-            NavHostFragment.findNavController(Questao7.this).navigate(R.id.action_questao7_to_questao8);
+            NavHostFragment.findNavController(Questao8.this).navigate(R.id.action_questao8_to_questao9);
         });
     }
 }

@@ -24,6 +24,8 @@
     <string name="sete">7</string>
     <string name="oito">8</string>
     <string name="nove">9</string>
+    <string name="dez">10</string>
+    <string name="onze">11</string>
     <string name="proximo">></string>
     <string name="finalizar">Finalizar</string>
     <string name="prox">Proxima</string>
@@ -242,6 +244,55 @@ de comunicação, pois elas permitem que o indivíduo seja proati vo na prevenç
     <string name="opccq7">I e II, apenas.</string>
     <string name="opcdq7">II e III, apenas.</string>
     <string name="opceq7">I, II e III.</string>
+
+    <!-- Textos referentes à questão 8-->
+    <string name="q8">Questão 8</string>
+    <string name="txtq8_p1">Que é democracia? Em seu famoso discurso em Gett ysburg, Abraham Lincoln disse que “a democracia
+é o governo do povo, feito para o povo e pelo povo, e responsável perante o povo”. O crédito desta
+defi nição é, na verdade, de Daniel Webster, que a elaborou 33 anos antes de Lincoln em outro discurso.
+Nesta ideia de “governo pelo povo e para o povo” surge uma questão essencial: e quando o povo esti ver
+em desacordo? E quando o povo ti ver preferências divergentes? O politólogo Arend Lijphart ressalta
+que há duas respostas principais: a resposta da “democracia majoritária” e a resposta da “democracia
+consensual”. Na democracia majoritária, a resposta é simples e direta: deve-se governar para a maioria
+do povo. A resposta alternati va, no modelo da democracia consensual é: deve-se governar para o máximo
+possível de pessoas.</string>
+    <string name="txtq8_p2">A virtude da democracia consensual é buscar consensos mais amplos no que é interesse de todos;
+o desafi o da democracia consensual pressupõe lideranças políti cas mais maduras, tanto no governo
+quanto na oposição. Democratas genuínos têm aversão à ideia do totalitarismo e combatem os delírios
+daqueles que desejam poder sem limites.</string>
+    <string name="fonteq8">Disponível em: htt ps://g1.globo.com/politi ca/blog/matheus-leitao/post/2020/02/25/democracia-consensual-contra-a-ti rania-da-maioria.ghtml. 
+Acesso em: 2 maio 2020 (adaptado).</string>
+    <string name="enunciadoq8_pt1"> A parti r dos argumentos expostos no texto, avalie as afi rmações a seguir.</string>
+    <string name="enunciadoq8_pt2">I. O bem comum, a ser estabelecido por um governo democráti co, nem sempre está associado às
+opiniões da maioria do povo.</string>
+    <string name="enunciadoq8_pt3">II. A democracia consensual é caracterizada pelo consenso a ser alcançado entre situação e oposição,
+nas decisões governamentais.</string>
+    <string name="enunciadoq8_pt4">III. Circunstâncias políti cas de polarização, marcadas pela alta competi ti vidade e combati vidade entre
+posições divergentes, caracterizam um modelo de democracia majoritária.</string>
+    <string name="enunciadoq8_pt5">IV. Democracia consensual pressupõe que a situação políti ca no poder considere em suas decisões as
+necessidades das minorias, no senti do de governar para todo o povo.</string>
+    <string name="enunciadoq8_pt6"> É correto apenas o que se afi rma em</string>
+    <string name="opcaq8">I e II.</string>
+    <string name="opcbq8">I e IV</string>
+    <string name="opccq8">II e III.</string>
+    <string name="opcdq8">I, III e IV.</string>
+    <string name="opceq8">II, III e IV.</string>
+
+    <!-- Textos referentes à questão 9 -->
+    <string name="q9">Questão 9</string>
+    <string name="txtq9">A etapa de definição de requisitos é voltada para estabelecer quais as funções são requeridas pelo sistema
+e as restrições sobre a operação e o desenvolvimento do software. Os requisitos de software podem ser
+classificados como requisitos funcionais e não funcionais.</string>
+    <string name="fonteq9">SOMMERVILLE, I. Engenharia de Software, 10. ed. São Paulo: Pearson Education, 2019 (adaptado).</string>
+    <string name="enunciadoq9">Considerando as informações do texto, assinale a alternativa em que o item é um requisito funcional.
+</string>
+    <string name="opcaq9">O software deve ser operacionalizado no sistema Linux.</string>
+    <string name="opcbq9">O tempo de desenvolvimento não deve ultrapassar seis meses.</string>
+    <string name="opccq9">O software deve emitir relatórios de compras a cada quinze dias.</string>
+    <string name="opcdq9">O tempo de resposta do sistema não deve ultrapassar 30 segundos.</string>
+    <string name="opceq9">A base de dados deve ser protegida para acesso apenas de usuários autorizados.</string>
+
+
 
 
     <string name="hello_first_fragment">Hello first fragment</string>

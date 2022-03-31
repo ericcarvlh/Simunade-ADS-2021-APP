@@ -34,5 +34,19 @@ public class Questao5 extends Fragment {
             NavHostFragment.findNavController(Questao5.this).navigate(R.id.action_questao5_to_questao4);
         });
 
+        binding.btQ6.setOnClickListener(V->{
+            NavHostFragment.findNavController(Questao5.this).navigate(R.id.action_questao5_to_questao6);
+        });
+
+        binding.btQ7.setOnClickListener(V->{
+            NavHostFragment.findNavController(Questao5.this).navigate(R.id.action_questao5_to_questao7);
+        });
+        binding.btProx.setOnClickListener(V->{
+            NavHostFragment.findNavController(Questao5.this).navigate(R.id.action_questao5_to_questao6);
+        });
+
+        binding.btProxima.setOnClickListener(V->{
+            NavHostFragment.findNavController(Questao5.this).navigate(R.id.action_questao5_to_questao6);
+        });
     }
 }
