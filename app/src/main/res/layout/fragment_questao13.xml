@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Questao13">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q13"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt_anterior"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/anterior"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/treze"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"
+                android:padding="0dp"/>
+
+            <Button
+                android:id="@+id/bt_q2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/quatorze"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"
+                android:padding="0dp"/>
+
+            <Button
+                android:id="@+id/bt_q3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/quinze"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"
+                android:padding="0dp"/>
+
+            <Button
+                android:id="@+id/bt_prox"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/proximo"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtq13_pt1"
+            android:layout_marginTop="15dp"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:background="@color/cinza_claro"
+            android:padding="5dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/questao13" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/laranja_forte"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/enunciadoq13" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opcaq13_pt1"
+                    android:textSize="15dp"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opcaq13_pt2"
+                    android:textSize="15dp"
+                    android:padding="5dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/opcbq13_pt1"
+                        android:textSize="15dp"
+                        android:padding="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/opcbq13_pt2"
+                        android:textSize="15dp"
+                        android:padding="5dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/opccq13_pt1"
+                        android:textSize="15dp"
+                        android:padding="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/opccq13_pt2"
+                        android:textSize="15dp"
+                        android:padding="5dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/opcdq13_pt1"
+                        android:textSize="15dp"
+                        android:padding="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/opcdq13_pt2"
+                        android:textSize="15dp"
+                        android:padding="5dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/opceq13_pt1"
+                        android:textSize="15dp"
+                        android:padding="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/opceq13_pt2"
+                        android:textSize="15dp"
+                        android:padding="5dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_finalizar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="60dp"
+                android:text="@string/finalizar" />
+
+            <Button
+                android:id="@+id/bt_proxima"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prox" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -28,6 +28,8 @@
     <string name="onze">11</string>
     <string name="doze">12</string>
     <string name="treze">13</string>
+    <string name="quatorze">14</string>
+    <string name="quinze">15</string>
     <string name="proximo">></string>
     <string name="finalizar">Finalizar</string>
     <string name="prox">Proxima</string>
@@ -319,6 +321,70 @@ de uma Pilha utilizando a estratégia encadeada.</string>
     <string name="enunciadoq11">Com base no exposto, assinale a opção que possui
 a implementação correta do método push para
 essa Pilha.</string>
+
+    <!-- Textos referntes à questão 12 -->
+    <string name="q12">Questão 12</string>
+    <string name="txtq12">Uma fábrica de software está realizando entrevistas
+para contração de um profissional que esteja
+alinhado às exigências do atual mundo corporativo.
+Sabe-se que processos ágeis de desenvolvimento
+têm se tornado essenciais para empresas que
+desejam realizar entregas rápidas e frequentes de
+produtos e/ou serviços de software. Essa empresa
+possui uma equipe de desenvolvimento que faz
+uso de processos ágeis como o Scrum e eXtreme
+Programming (XP) e o acompanhamento por meio
+do quadro Kanban. Sendo assim, um conjunto
+de características deve ser verificado durante a
+entrevista para garantir que o candidato a ser
+contratado possua conhecimentos necessários
+para atuar juntamente a esta equipe.</string>
+    <string name="enunciadoq12_pt1">Com base no texto e nos processos ágeis de
+desenvolvimento de software, avalie as afirmações
+a seguir.</string>
+    <string name="enunciadoq12_pt2">I. Métodos Ágeis são baseados em ciclos
+iterativo e incremental que se concentram
+no desenvolvimento rápido e na flexibilidade
+às mudanças, com a participação do cliente
+no processo de software.</string>
+    <string name="enunciadoq12_pt3">II. Uma forte característica da XP é a garantia
+da qualidade do código produzido e, para
+isso, os desenvolvedores produzem testes
+automatizados antes mesmo de codificar
+uma funcionalidade.</string>
+    <string name="enunciadoq12_pt4">III. O planejamento no Scrum é baseado na
+elaboração dos itens do product backlog,
+que é uma lista de funcionalidades desejadas
+pelo cliente, sendo o Scrum Master o
+responsável por gerenciá-lo.</string>
+    <string name="enunciadoq12_pt5">IV. O quadro Kanban permite monitorar a
+evolução das tarefas necessárias durante
+o processo ágil de desenvolvimento
+de software, possibilitando um
+acompanhamento de forma visual das
+atividades em construção.</string>
+    <string name="enunciadoq12_pt6">É correto apenas o que se afirma em</string>
+    <string name="opcaq12">II.</string>
+    <string name="opcbq12">I e III.</string>
+    <string name="opccq12">I, II e IV.</string>
+    <string name="opcdq12">I, III, IV.</string>
+    <string name="opceq12">II, III e IV.</string>
+
+    <!-- Textos referentes à Questão 13 -->
+    <string name="q13">Questão 13</string>
+    <string name="txtq13_pt1">Considere que as variáveis pilha e fila correspondem, respectivamente, às estruturas de dados do tipo
+Pilha e Fila. Para testar as duas estruturas, um programador realizou a série de operações a seguir.</string>
+    <string name="enunciadoq13">Após essas operações, ao imprimir o conteúdo de pilha e fila, respectivamente, seria exibido:</string>
+    <string name="opcaq13_pt1">pilha: topo → C → A → E.</string>
+    <string name="opcaq13_pt2">fila: início → D → A → A → E.</string>
+    <string name="opcbq13_pt1">pilha: topo →A.</string>
+    <string name="opcbq13_pt2">fila: início → D → B → C → E.</string>
+    <string name="opccq13_pt1">pilha: topo → C → B → A.</string>
+    <string name="opccq13_pt2">fila: início → D → C → C → E.</string>
+    <string name="opcdq13_pt1">pilha: topo → B → A.</string>
+    <string name="opcdq13_pt2">fila: início → D → B → C → E.</string>
+    <string name="opceq13_pt1">pilha: topo → C → B → A.</string>
+    <string name="opceq13_pt2">fila: início → D → B → C → E.</string>
 
 
     <string name="hello_first_fragment">Hello first fragment</string>
