@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/home3">
+    app:startDestination="@id/questao11">
     <fragment
         android:id="@+id/home3"
         android:name="com.example.simunade_ads2021.fragments.Home"
@@ -160,4 +160,14 @@
             android:id="@+id/action_questao9_to_questao8"
             app:destination="@id/questao8" />
     </fragment>
+    <fragment
+        android:id="@+id/questao10"
+        android:name="com.example.simunade_ads2021.fragments.Questao10"
+        android:label="fragment_questao10"
+        tools:layout="@layout/fragment_questao10" />
+    <fragment
+        android:id="@+id/questao11"
+        android:name="com.example.simunade_ads2021.fragments.Questao11"
+        android:label="fragment_questao11"
+        tools:layout="@layout/fragment_questao11" />
 </navigation>

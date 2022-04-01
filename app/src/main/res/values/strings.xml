@@ -26,6 +26,8 @@
     <string name="nove">9</string>
     <string name="dez">10</string>
     <string name="onze">11</string>
+    <string name="doze">12</string>
+    <string name="treze">13</string>
     <string name="proximo">></string>
     <string name="finalizar">Finalizar</string>
     <string name="prox">Proxima</string>
@@ -292,7 +294,31 @@ classificados como requisitos funcionais e não funcionais.</string>
     <string name="opcdq9">O tempo de resposta do sistema não deve ultrapassar 30 segundos.</string>
     <string name="opceq9">A base de dados deve ser protegida para acesso apenas de usuários autorizados.</string>
 
+    <!-- Textos referentes à questão 10 -->
+    <string name="q10">Questão 10</string>
+    <string name="txtq10_pt1">Uma fábrica adquiriu máquinas de costura industrial para a produção de jogos de toalhas de mesa e guardanapos
+de tecido com estampas quadriculadas. Cada quadrículo tem tamanho padrão de 5 cm X 5 cm. Para a configuração
+da costura, é preciso um programa de computador para criar um molde em que sejam informadas as quantidades
+de quadrículos por comprimento e por largura, além do desenho da estampa a ser costurada. Por exemplo,
+para um guardanapo de tecido que tenha 30 cm X 30 cm, com uma estampa representada pelo caractere “#”,
+o seguinte molde precisa ser criado:</string>
+    <string name="txtq10_pt2">Como uma toalha pode ter, no máximo, 250 cm de comprimento e 200 cm de largura, o programador
+declarou uma matriz char molde[40][50] para ser possível representar moldes cujas medidas
+compreendam esses limites. Ele também implementou, entre outras, as seguintes funções:</string>
+    <string name="txtq10_pt3">- criar_molde, para a qual os seguintes parâmetros são esperados, nessa ordem: uma referência à
+matriz molde, o comprimento e a largura do tecido (em quantidades de quadrículos) e o caractere que
+representa a estampa;</string>
+    <string name="txtq10_pt4">- alternar_estampa, que tem a tarefa de controlar a disposição alternada das estampas no molde.</string>
+    <string name="enunciadoq10">Considerando o cenário descrito, que alternativa a seguir apresenta a implementação correta das funções
+criar_molde e alternar_estampa?</string>
 
+    <!-- Textos referentes à questão 11-->
+    <string name="q11">Questão 11</string>
+    <string name="txtq11">O código Java, a seguir, contém a implementação
+de uma Pilha utilizando a estratégia encadeada.</string>
+    <string name="enunciadoq11">Com base no exposto, assinale a opção que possui
+a implementação correta do método push para
+essa Pilha.</string>
 
 
     <string name="hello_first_fragment">Hello first fragment</string>
