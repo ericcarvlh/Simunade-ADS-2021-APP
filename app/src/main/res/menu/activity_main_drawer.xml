@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- id -> quando clicado vai ate o content mobile_navigation.xml para posteriormente abrir o fragment.  -->
+    <!-- icon -> Icone da opção em si.  -->
+    <!-- title -> titúlo da tela/fragment em si. -->
+
+    <!-- vale ressaltar que estamos fazendo isso para referenciar os 3 itens ali indexados no menu drawer. -->
+    <!-- Caso haja a necesidade de implementar mais uma opção, basta criar utilizando a tag 'item' com os respectivos parametros citados. -->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_inicio" />
+        <item
+            android:id="@+id/nav_creditos"
+            android:icon="@drawable/ic_menu_credits"
+            android:title="@string/menu_creditos" />
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_menu_about"
+            android:title="@string/menu_sobre" />
+    </group>
+</menu>

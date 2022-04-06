@@ -6,9 +6,9 @@
     app:startDestination="@id/questao13">
     <fragment
         android:id="@+id/home3"
-        android:name="com.example.simunade_ads2021.fragments.Home"
+        android:name="com.example.simunade_ads2021.ui.inicio.InicioFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        tools:layout="@layout/fragment_inicio" >
         <action
             android:id="@+id/action_home3_to_creditos2"
             app:destination="@id/creditos2" />
@@ -21,7 +21,7 @@
     </fragment>
     <fragment
         android:id="@+id/creditos2"
-        android:name="com.example.simunade_ads2021.fragments.Creditos"
+        android:name="com.example.simunade_ads2021.ui.creditos.CreditosFragment"
         android:label="fragment_creditos"
         tools:layout="@layout/fragment_creditos" >
         <action
@@ -30,7 +30,7 @@
     </fragment>
     <fragment
         android:id="@+id/sobre2"
-        android:name="com.example.simunade_ads2021.fragments.Sobre"
+        android:name="com.example.simunade_ads2021.ui.sobre.SobreFragment"
         android:label="fragment_sobre"
         tools:layout="@layout/fragment_sobre" >
         <action
