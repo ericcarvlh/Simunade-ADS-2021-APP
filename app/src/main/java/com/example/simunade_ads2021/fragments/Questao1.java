@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.simunade_ads2021.R;
-import com.example.simunade_ads2021.databinding.FragmentHomeBinding;
+import com.example.simunade_ads2021.databinding.FragmentInicioBinding;
 import com.example.simunade_ads2021.databinding.FragmentQuestao1Binding;
 
 
