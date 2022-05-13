@@ -39,9 +39,9 @@
     </fragment>
     <fragment
         android:id="@+id/questao1"
-        android:name="com.example.simunade_ads2021.fragments.Questao1"
+        android:name="com.example.simunade_ads2021.fragments.Q1Fragment"
         android:label="fragment_questao1"
-        tools:layout="@layout/fragment_questao1" >
+        tools:layout="@layout/fragment_q1" >
         <action
             android:id="@+id/action_questao1_to_questao2"
             app:destination="@id/questao2" />
@@ -51,9 +51,9 @@
     </fragment>
     <fragment
         android:id="@+id/questao2"
-        android:name="com.example.simunade_ads2021.fragments.Questao2"
+        android:name="com.example.simunade_ads2021.fragments.Q2Fragment"
         android:label="fragment_questao2"
-        tools:layout="@layout/fragment_questao2" >
+        tools:layout="@layout/fragment_q2" >
         <action
             android:id="@+id/action_questao2_to_questao3"
             app:destination="@id/questao3" />
@@ -66,9 +66,9 @@
     </fragment>
     <fragment
         android:id="@+id/questao3"
-        android:name="com.example.simunade_ads2021.fragments.Questao3"
+        android:name="com.example.simunade_ads2021.fragments.Q3Fragment"
         android:label="fragment_questao3"
-        tools:layout="@layout/fragment_questao3" >
+        tools:layout="@layout/fragment_q3" >
         <action
             android:id="@+id/action_questao3_to_questao4"
             app:destination="@id/questao4" />
@@ -81,9 +81,9 @@
     </fragment>
     <fragment
         android:id="@+id/questao4"
-        android:name="com.example.simunade_ads2021.fragments.Questao4"
+        android:name="com.example.simunade_ads2021.fragments.Q4Fragment"
         android:label="fragment_questao4"
-        tools:layout="@layout/fragment_questao4" >
+        tools:layout="@layout/fragment_q4" >
         <action
             android:id="@+id/action_questao4_to_questao5"
             app:destination="@id/questao5" />
@@ -93,9 +93,9 @@
     </fragment>
     <fragment
         android:id="@+id/questao5"
-        android:name="com.example.simunade_ads2021.fragments.Questao5"
+        android:name="com.example.simunade_ads2021.fragments.Q5Fragment"
         android:label="fragment_questao5"
-        tools:layout="@layout/fragment_questao5" >
+        tools:layout="@layout/fragment_q5" >
         <action
             android:id="@+id/action_questao5_to_questao4"
             app:destination="@id/questao4" />
@@ -108,9 +108,9 @@
     </fragment>
     <fragment
         android:id="@+id/questao6"
-        android:name="com.example.simunade_ads2021.fragments.Questao6"
+        android:name="com.example.simunade_ads2021.fragments.Q6Fragment"
         android:label="fragment_questao6"
-        tools:layout="@layout/fragment_questao6" >
+        tools:layout="@layout/fragment_q6" >
         <action
             android:id="@+id/action_questao6_to_questao5"
             app:destination="@id/questao5" />
@@ -126,9 +126,9 @@
     </fragment>
     <fragment
         android:id="@+id/questao7"
-        android:name="com.example.simunade_ads2021.fragments.Questao7"
+        android:name="com.example.simunade_ads2021.fragments.Q7Fragment"
         android:label="fragment_questao7"
-        tools:layout="@layout/fragment_questao7" >
+        tools:layout="@layout/fragment_q7" >
         <action
             android:id="@+id/action_questao7_to_questao6"
             app:destination="@id/questao6" />
@@ -141,9 +141,9 @@
     </fragment>
     <fragment
         android:id="@+id/questao8"
-        android:name="com.example.simunade_ads2021.fragments.Questao8"
+        android:name="com.example.simunade_ads2021.fragments.Q8Fragment"
         android:label="fragment_questao8"
-        tools:layout="@layout/fragment_questao8" >
+        tools:layout="@layout/fragment_q8" >
         <action
             android:id="@+id/action_questao8_to_questao7"
             app:destination="@id/questao7" />
@@ -153,9 +153,9 @@
     </fragment>
     <fragment
         android:id="@+id/questao9"
-        android:name="com.example.simunade_ads2021.fragments.Questao9"
+        android:name="com.example.simunade_ads2021.fragments.Q9Fragment"
         android:label="fragment_questao9"
-        tools:layout="@layout/fragment_questao9" >
+        tools:layout="@layout/fragment_q9" >
         <action
             android:id="@+id/action_questao9_to_questao8"
             app:destination="@id/questao8" />
@@ -168,9 +168,9 @@
     </fragment>
     <fragment
         android:id="@+id/questao10"
-        android:name="com.example.simunade_ads2021.fragments.Questao10"
+        android:name="com.example.simunade_ads2021.fragments.Q10Fragment"
         android:label="fragment_questao10"
-        tools:layout="@layout/fragment_questao10" >
+        tools:layout="@layout/fragment_q10" >
         <action
             android:id="@+id/action_questao10_to_questao9"
             app:destination="@id/questao9" />
@@ -180,21 +180,21 @@
     </fragment>
     <fragment
         android:id="@+id/questao11"
-        android:name="com.example.simunade_ads2021.fragments.Questao11"
+        android:name="com.example.simunade_ads2021.fragments.Q11Fragment"
         android:label="fragment_questao11"
-        tools:layout="@layout/fragment_questao11" >
+        tools:layout="@layout/fragment_q11" >
         <action
             android:id="@+id/action_questao11_to_questao10"
             app:destination="@id/questao10" />
     </fragment>
     <fragment
         android:id="@+id/questao12"
-        android:name="com.example.simunade_ads2021.fragments.Questao12"
+        android:name="com.example.simunade_ads2021.fragments.Q12Fragment"
         android:label="fragment_questao12"
-        tools:layout="@layout/fragment_questao12" />
+        tools:layout="@layout/fragment_q12" />
     <fragment
         android:id="@+id/questao13"
-        android:name="com.example.simunade_ads2021.fragments.Questao13"
+        android:name="com.example.simunade_ads2021.fragments.Q13Fragment"
         android:label="fragment_questao13"
-        tools:layout="@layout/fragment_questao13" />
+        tools:layout="@layout/fragment_q13" />
 </navigation>

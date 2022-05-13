@@ -7,44 +7,42 @@
     android:layout_height="match_parent"
     tools:context=".ui.inicio.InicioFragment">
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+
+            app:autoPlay="false"
+            app:videoId="avJZ2mtFljc" />
+    </LinearLayout>
+
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="78dp"
         android:layout_height="42dp"
         android:text="@string/home"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:textAlignment="center"
-        android:textSize="20dp"/>
-
-    <Button
-        android:id="@+id/creditos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/creditos"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.601" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <Button
-        android:id="@+id/sobre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/sobre"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.732" />
-
-    <Button
-        android:id="@+id/prova"
+        android:id="@+id/buttonIniciarProva"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/prova"
@@ -55,4 +53,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.831"
         tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

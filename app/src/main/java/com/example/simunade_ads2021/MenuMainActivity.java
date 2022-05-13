@@ -21,7 +21,6 @@ public class MenuMainActivity extends AppCompatActivity {
     private ActivityMenuMainBinding binding;
     private FragmentInicioBinding inicioBinding;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,9 +28,6 @@ public class MenuMainActivity extends AppCompatActivity {
         binding = ActivityMenuMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         setSupportActionBar(binding.appBarMenuMain.toolbar);
-
-        inicioBinding = FragmentInicioBinding.inflate(getLayoutInflater());
-        setContentView(inicioBinding.getRoot());
 
         DrawerLayout drawer = binding.drawerLayout;
         // area de navegação

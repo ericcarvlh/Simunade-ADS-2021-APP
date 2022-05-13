@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimunadeADS2021">
         <activity
+            android:name=".activity.QuestoesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MenuMainActivity"
             android:exported="true"
             android:label="@string/title_activity_menu_main"
@@ -24,8 +27,7 @@
             android:name=".activity.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.SimunadeADS2021.NoActionBar">
-        </activity>
+            android:theme="@style/Theme.SimunadeADS2021.NoActionBar"></activity>
     </application>
 
 </manifest>
