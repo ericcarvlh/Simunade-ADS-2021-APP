@@ -5,7 +5,40 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-    <string name="home">Home</string>
+    <string name="enade">Você sabe o que é o Enade?</string>
+    <string name="sobre_o_enade_pt1">
+        "O Exame Nacional de Desempenho dos Estudantes (Enade) avalia o rendimento dos
+        concluintes dos cursos de graduação em relação aos conteúdos programáticos
+        previstos nas diretrizes curriculares dos cursos,o desenvolvimento de competências e
+        habilidades necessárias ao aprofundamento da formação geral e profissional, e o nível
+        de atualização dos estudantes com relação à realidade brasileira e mundial.
+    </string>
+    <string name="sobre_o_enade_pt2">
+        Aplicado pelo Inep desde 2004, o Enade integra o Sistema Nacional de Avaliação da
+        Educação Superior (Sinaes), composto também pela Avaliação de cursos de graduação
+        e pela Avaliação institucional. Juntos eles formam o tripé avaliativo que permite
+        conhecer a qualidade dos cursos e instituições de educação superior brasileiras. Os
+        resultados do Enade, aliados às respostas do Questionário do Estudante, são insumos
+        para o cálculo dos Indicadores de Qualidade da Educação Superior.
+    </string>
+    <string name="sobre_o_enade_pt3">
+        A inscrição é obrigatória para estudantes ingressantes e concluintes habilitados de
+        cursos de bacharelado e superiores de tecnologia vinculados às áreas de avaliação da
+        edição. A situação de regularidade do estudante é registrada no histórico escolar.
+    </string>
+    <string name="sobre_o_enade_pt4">
+        O Ciclo Avaliativo do Enade determina as áreas de avaliação e os cursos a elas
+        vinculados. As áreas de conhecimento para os cursos de bacharelado e licenciatura
+        derivam da tabela de áreas do conhecimento divulgada pelo Conselho Nacional de
+        Desenvolvimento Científico e Tecnológico (CNPq). Já os eixos tecnológicos são baseados
+        no Catálogo Nacional de Cursos Superiores de Tecnologia (CNCST), do Ministério da Educação."
+    </string>
+    <string name="sobre_o_enade_pt5">
+        Fonte: https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enade
+    </string>
+    <string name="acesso_ao_simulado">
+        Simulado Enade - Análise e Desenvolvimento de Sistemas (2021)
+    </string>
     <string name="creditos">Creditos</string>
     <string name="sobre">Sobre</string>
     <string name="prova">Iniciar prova</string>
@@ -666,132 +699,355 @@ criar_molde e alternar_estampa?</string>
     </string>
 
     <string name="enunciado_pergunta_q19">
-        Para esses três subprocessos, quais são os artefatos que podem ser utilizados por essa equipe de
-        Tecnologia da Informação?
+        É correto apenas o que se afirma em
     </string>
 
-    <string name="q19_alt_a"></string>
-    <string name="q19_alt_b"></string>
-    <string name="q19_alt_c"></string>
-    <string name="q19_alt_d"></string>
-    <string name="q19_alt_e"></string>
+    <string name="q19_alt_a">I e III.</string>
+    <string name="q19_alt_b">II e III.</string>
+    <string name="q19_alt_c">II e IV.</string>
+    <string name="q19_alt_d">I, II e IV.</string>
+    <string name="q19_alt_e">I, III e IV.</string>
 
     <!-- Textos referentes à Questão 20 -->
-    <string name="texto_pergunta_q20">
+    <string name="texto_pergunta_q20_pt1">
+        Uma secretaria municipal de esportes decidiu criar e disponibilizar um site que sirva como portal de
+        comunicação com pessoas da terceira idade. A finalidade é fornecer orientações que propiciem práticas
+        para uma vida mais saudável, além de divulgar eventos esportivos ofertados pelo município para esse
+        público-alvo. O projeto ainda prevê a interação entre os usuários do site, por meio da publicação de fotos,
+        que podem ser curtidas e comentadas.
+    </string>
+
+    <string name="texto_pergunta_q20_pt2">
+        A iniciativa de criação do site foi embasada em uma pesquisa mostrando que a maioria da população de
+        terceira idade do município dispõe de acesso à internet, especialmente por meio de dispositivos móveis
+        (smartphones e tablets), embora uma parcela dessa população prefira realizar o acesso com computadores
+        de mesa e notebooks.
+    </string>
+
+    <string name="texto_pergunta_q20_pt3">
+        Considerando as informações do texto e as responsabilidades inerentes ao desenvolvimento do site,
+        avalie as afirmações a seguir.
+        I. A segurança no uso é um fator crítico de usabilidade a ser considerado no projeto de interface para
+        o site, tendo em vista que pessoas da terceira idade são temerosas quanto ao registro de dados
+        pessoais e confidenciais em sites e aplicativos.
+        II. A responsividade, que pressupõe o uso de valores relativos para definir as dimensões de elementos
+        na estilização de páginas HTML, deve ser considerada na construção do site, tendo em vista que o
+        acesso deve ocorrer através de dispositivos com diferentes tamanhos de tela.
+        III. A construção de protótipos pode antecipar problemas de design de interação e minimizar custos
+        de desenvolvimento e, por isso, é viável para estabelecer uma comunicação mais objetiva com o
+        público-alvo e assim possibilitar a validação de usabilidade e da experiência do usuário.
+        IV. O design participativo é um processo de design de Interação Humano-Computador (IHC) viável
+        para direcionar o projeto de interfaces e de experiência com o usuário do site, pois o público-alvo
+        tende a apresentar dificuldades no manuseio de tecnologias da informação e da comunicação.
     </string>
 
     <string name="enunciado_pergunta_q20">
+        É correto apenas o que se afirma em
     </string>
 
-    <string name="q20_alt_a"></string>
-    <string name="q20_alt_b"></string>
-    <string name="q20_alt_c"></string>
-    <string name="q20_alt_d"></string>
-    <string name="q20_alt_e"></string>
+    <string name="q20_alt_a">I e II.</string>
+    <string name="q20_alt_b">I e III.</string>
+    <string name="q20_alt_c">II e IV.</string>
+    <string name="q20_alt_d">I, III e IV.</string>
+    <string name="q20_alt_e">II, III e IV.</string>
 
     <!-- Textos referentes à Questão 21 -->
     <string name="texto_pergunta_q21">
+        No decorrer de um projeto de desenvolvimento de software é compreensível que mudanças venham
+        a ocorrer, sejam por novos entendimentos dos atores envolvidos ou até mesmo de novas demandas
+        apresentadas pelos clientes. Nesta perspectiva, a Gestão de Configuração de Software estabelece
+        um conjunto de atividades para gerenciar alterações através de todo o ciclo de vida de um software.
+    </string>
+
+    <string name="fonte_pergunta_q21">
+        PRESSMAN, R. S. Engenharia de Software: uma abordagem profissional. 8. ed.
+        Porto Alegre: Artmed Editora S.A. e McGraw-Hill Education, 2016 (adaptado).
     </string>
 
     <string name="enunciado_pergunta_q21">
+        Com base no texto, assinale a opção correta acerca das atividades de gestão de configuração de
+        software.
     </string>
 
-    <string name="q21_alt_a"></string>
-    <string name="q21_alt_b"></string>
-    <string name="q21_alt_c"></string>
-    <string name="q21_alt_d"></string>
-    <string name="q21_alt_e"></string>
+    <string name="q21_alt_a">
+        Identificação de itens na configuração de software, gerenciamento de alterações, validação de versões e
+        controle de qualidade.
+    </string>
+    <string name="q21_alt_b">
+        Identificação de objetos na configuração de software, controle de versão, controle de alterações,
+        auditoria de configuração e relatório de status.
+    </string>
+    <string name="q21_alt_c">
+        Gerência de projeto, gerência de configuração de software, ciclo de vida do projeto, processo de
+        software e evolução das configurações.
+    </string>
+    <string name="q21_alt_d">
+        Construção de modelo de requisitos, métricas para modelo de projeto, métricas de controle de versão
+        e relatório de manutenção.
+    </string>
+    <string name="q21_alt_e">
+        Identificação de alterações, controle de versão, mapeamento de alteração e notificação da alteração
+        aos envolvidos
+    </string>
 
     <!-- Textos referentes à Questão 22 -->
-    <string name="texto_pergunta_q22">
+    <string name="texto_pergunta_q22_pt1">
+        Um ponto importante para fábricas de software é a garantia de que seus produtos e/ou serviços acompanhem
+        as diversas mudanças ocasionadas pelo mundo corporativo. As restrições de orçamento ou cronograma,
+        reestruturação do negócio, modificações de regras de negócio ou novas necessidades do cliente, geram
+        mudanças inevitáveis. Nesse cenário, a utilização de um processo de Gerência de Configuração de Software
+        (GCS) que contemple características necessárias para gerenciar e controlar a evolução de um software, através
+        do controle formal de versão e solicitação de mudanças, é extremamente importante.
+    </string>
+
+    <string name="texto_pergunta_q22_pt2">
+        Sobre o processo de Gerência de Configuração de Software (GCS), avalie as afirmações a seguir.
+        I. O controle de versão possibilita o compartilhamento de dados e a edição colaborativa, permitindo
+        a gestão de diferentes ramos de desenvolvimento e possibilitando a existência de diferentes
+        versões de forma simultânea.
+        II. A auditoria de configuração é uma atividade de garantia de qualidade do sistema que tem por
+        objetivo assegurar que a qualidade do software seja mantida quando feitas alterações requisitadas.
+        III. O relatório de status de configuração possui informações sobre o GCS, tendo por objetivo manter o
+        cliente informado sobre as alterações, e deve ser gerado ao final do processo.
+        IV. A GCS proporciona um conjunto de atividades de acompanhamento e controle de mudanças que é
+        iniciado logo depois que o software for fornecido ao cliente e colocado em operação
     </string>
 
     <string name="enunciado_pergunta_q22">
+        É correto apenas o que se afirma em
     </string>
 
-    <string name="q22_alt_a"></string>
-    <string name="q22_alt_b"></string>
-    <string name="q22_alt_c"></string>
-    <string name="q22_alt_d"></string>
-    <string name="q22_alt_e"></string>
+    <string name="q22_alt_a">I e II.</string>
+    <string name="q22_alt_b">II e III.</string>
+    <string name="q22_alt_c">III e IV.</string>
+    <string name="q22_alt_d">I, II e IV.</string>
+    <string name="q22_alt_e">I, III e IV</string>
 
     <!-- Textos referentes à Questão 23 -->
-    <string name="texto_pergunta_q23">
+    <string name="texto_pergunta_q23_pt1">
+        A evolução de sistemas de software legados pode ser dividida em três categorias: manutenção,
+        modernização e substituição. De acordo com a figura a seguir, conforme o tempo aumenta, a quantidade
+        de funcionalidades também cresce. No primeiro período de evolução a manutenção é realizada, pois as
+        necessidades de negócio são alteradas e o sistema precisa suprir as mudanças por meio da manutenção.
+        No segundo período é realizada a modernização do sistema, pois as necessidades de negócio continuam
+        a crescer, mas há mudanças mais significativas que se fazem necessárias. Além da substituição do sistema
+        de software, nos casos em que o modelo de negócio não atende mais a necessidade da empresa,
+        a manutenção e modernização também não são mais suficientes.
+    </string>
+
+    <string name="fonte_pergunta_q23">
+        SEACORD, R. C.; PLAKOSH, D.; LEWIS, G. A. Modernizing Legancy Systems. Boston: Pearson Education, 2003 (adaptado).
     </string>
 
     <string name="enunciado_pergunta_q23">
+        De acordo com a figura apresentada e considerando um sistema de software implantado de ERP (Enterprise
+        Resource Planning - Planejamento de Recursos Empresariais) contendo um conjunto de módulos que
+        integra todos os departamentos existentes de uma empresa, observou-se a necessidade de criação de um
+        relatório gerencial de comissão da equipe de vendas. Nesse contexto, é correto afirmar que a manutenção
+        a ser realizada é
     </string>
 
-    <string name="q23_alt_a"></string>
-    <string name="q23_alt_b"></string>
-    <string name="q23_alt_c"></string>
-    <string name="q23_alt_d"></string>
-    <string name="q23_alt_e"></string>
+    <string name="q23_alt_a">Corretiva.</string>
+    <string name="q23_alt_b">Evolutiva.</string>
+    <string name="q23_alt_c">Funcional.</string>
+    <string name="q23_alt_d">Preventiva.</string>
+    <string name="q23_alt_e">Adaptativa.</string>
 
     <!-- Textos referentes à Questão 24 -->
-    <string name="texto_pergunta_q24">
+    <string name="texto_pergunta_q24_pt1">
+        Em razão da Covid-19, muitos estabelecimentos viram no delivery uma forma de manter os negócios
+        funcionando. As mudanças de hábitos dos brasileiros revelaram um aumento do interesse nesse tipo
+        de serviço.
     </string>
+
+    <string name="texto_pergunta_q24_pt2">
+        Nesse contexto, um restaurante solicitou o desenvolvimento de um sistema web que possibilite
+        gerenciar automaticamente os pedidos de entrega. O sistema foi projetado com base em tecnologias
+        web e modelado com UML (Unified Modeling Language). Durante o processo de desenvolvimento
+        foram descritos alguns itens importantes que merecem atenção no processo de teste de software.
+    </string>
+
+    <string name="texto_pergunta_q24_pt3">
+        Considerem as seguintes descrições definidas pelo analista de teste:
+        01 – Verificar se o método “Finalizar Pedido” da classe “Pedido” está funcionando corretamente.
+        02 – Garantir que o sistema funcione corretamente em diferentes navegadores de internet.
+        03 – O sistema deve passar por testes rigorosos na estrutura lógica interna do software.
+        04 – O sistema deve garantir, no mínimo, o registro de 100 pedidos simultâneos.
+        05 – O usuário deve testar o sistema em um ambiente controlado sob a supervisão dos desenvolvedores.
+        Considerando o texto e as descrições apresentadas, avalie as afirmações a seguir.
+        I. A descrição 01 deve ser verificada com teste unitário.
+        II. A descrição 02 deve ser executada com a abordagem caixa-branca.
+        III. A descrição 03 deve ser executada com a abordagem caixa-preta.
+        IV. A descrição 04 deve ser verificada com teste carga.
+        V. A descrição 05 deve ser classificada como teste alfa.
+    <string>
 
     <string name="enunciado_pergunta_q24">
+        É correto apenas o que se afirma em
     </string>
 
-    <string name="q24_alt_a"></string>
-    <string name="q24_alt_b"></string>
-    <string name="q24_alt_c"></string>
-    <string name="q24_alt_d"></string>
-    <string name="q24_alt_e"></string>
+    <string name="q24_alt_a">II e III.</string>
+    <string name="q24_alt_b">I, II e IV.</string>
+    <string name="q24_alt_c">I, III e V.</string>
+    <string name="q24_alt_d">I, IV e V.</string>
+    <string name="q24_alt_e">II, III, IV e V.</string>
 
     <!-- Textos referentes à Questão 25 -->
-    <string name="texto_pergunta_q25">
+    <string name="texto_pergunta_q25_pt1">
+        Uma determinada empresa do ramo de piscicultura solicitou a uma instituição especializada no
+        desenvolvimento de softwares de gestão a construção de um sistema que fosse capaz de gerenciar o
+        processo de criação dos peixes, que começava ainda na fase de alevinos, estendia-se para a engorda,
+        finalizando na fase adulta com a venda do peixe. O sistema deveria disponibilizar funcionalidades
+        para armazenar informações sobre toda a etapa da criação, mortandade e rações utilizadas na
+        engorda dos peixes, viabilizando uma melhor tomada de decisão dos investidores. Como não havia
+        nenhuma solução e a demanda por peixes estava aumentando, a empresa solicitou extrema urgência
+        na construção da aplicação.
+    </string>
+
+    <string name="texto_pergunta_q25_pt2">
+        Considerando o processo de desenvolvimento de software que deverá ser utilizado para construir o
+        sistema mencionado no texto, avalie as afirmações a seguir.
+        I. Para desenvolver o sistema, deve ser adotado um processo baseado no modelo cascata, pois ele
+        se adapta melhor a cenários com muitas mudanças.
+        II. Por se tratar de uma aplicação com escopo pequeno, o modelo espiral deverá ser utilizado
+        no desenvolvimento do sistema solicitado, já que reduzirá riscos por meio da prototipação de
+        especificações de cada fase dos peixes e diminuirá o tempo de entrega.
+        III. O modelo incremental deve ser utilizado na construção do software descrito no cenário, já que
+        partes do sistema referentes à fase inicial dos peixes poderiam ser disponibilizadas, enquanto as
+        demais estão nas etapas de concepção e desenvolvimento.
+        IV. Em razão da extrema urgência no desenvolvimento do software solicitado, a empresa deve elaborar
+        seu processo utilizando o modelo RAD (Rapid Application Development).
     </string>
 
     <string name="enunciado_pergunta_q25">
+        É correto apenas o que se afirma em
     </string>
 
-    <string name="q25_alt_a"></string>
-    <string name="q25_alt_b"></string>
-    <string name="q25_alt_c"></string>
-    <string name="q25_alt_d"></string>
-    <string name="q25_alt_e"></string>
+    <string name="q25_alt_a">I.</string>
+    <string name="q25_alt_b">IV.</string>
+    <string name="q25_alt_c">I e II.</string>
+    <string name="q25_alt_d">II e III.</string>
+    <string name="q25_alt_e">III e IV</string>
 
     <!-- Textos referentes à Questão 26 -->
-    <string name="texto_pergunta_q26">
+    <string name="texto_pergunta_q26_pt1">
+        Empreender em computação não se resume apenas ao fato de ter uma ideia sobre um aplicativo,
+        implementá-la e disponibilizá-la aos seus usuários finais. Esse conceito vai além, é preciso analisar uma
+        série de variáveis, como questões sociais e humanísticas, profissionais, ambientais, legais, políticas e
+        tecnológicas.
+    </string>
+
+    <string name="texto_pergunta_q26_pt2">
+        Dentre as ações necessárias para empreender em computação, é imprescindível observar a legislação vigente.
+        No Brasil, a Lei Geral de Proteção de Dados Pessoais (LGPD), n. 13.709/2018, dispõe sobre o tratamento de
+        dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público
+        ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre
+        desenvolvimento da personalidade da pessoa natural.
     </string>
 
     <string name="enunciado_pergunta_q26">
+        Acerca das providências dispostas no art. 2º da LGPD, assinale os fundamentos da disciplina da proteção
+        de dados pessoais.
     </string>
 
-    <string name="q26_alt_a"></string>
-    <string name="q26_alt_b"></string>
-    <string name="q26_alt_c"></string>
-    <string name="q26_alt_d"></string>
-    <string name="q26_alt_e"></string>
+    <string name="q26_alt_a">
+        O direito ao usuário; das obrigações das organizações nacionais ou estrangeiras; obrigatoriedade do
+        consentimento; a livre iniciativa, a livre concorrência e a defesa do consumidor; os direitos humanos, o
+        livre desenvolvimento da personalidade, a dignidade e o exercício da cidadania pelas pessoas naturais
+        e regulação da Autoridade Nacional de Proteção de Dados Pessoais (ANPD).
+    </string>
+    <string name="q26_alt_b">
+        O direito à revogação de um consentimento; a transferência de dados para outro fornecedor de
+        serviços; a solicitação de remoção de dados pessoais; a inviolabilidade da intimidade, da honra e
+        da imagem; o desenvolvimento econômico e tecnológico e inovação; a preservação da vida e da
+        integridade física de uma pessoa.
+    </string>
+    <string name="q26_alt_c">
+        O respeito à privacidade; obrigatoriedade do consentimento; os deveres e obrigações dos usuários
+        finais; os deveres e obrigações das organizações nacionais ou estrangeiras; a observação ao código de
+        defesa do consumidor; e, a obrigatoriedade do respeito à honra e à imagem.
+    </string>
+    <string name="q26_alt_d">
+        O direito ao anonimato; a liberdade de expressão; a inviolabilidade da intimidade; a adoção de
+        medidas preventivas de segurança; o direito ao recurso e revisão; a administração de riscos e falhas;
+        o estabelecimento de agentes de tratamento; e, regulação da Autoridade Nacional de Proteção de
+        Dados Pessoais (ANPD).
+    </string>
+    <string name="q26_alt_e">
+        O respeito à privacidade; a autodeterminação informativa; a liberdade de expressão, de informação, de
+        comunicação e de opinião; a inviolabilidade da intimidade, da honra e da imagem; o desenvolvimento
+        econômico e tecnológico e a inovação; a livre iniciativa, a livre concorrência e a defesa do consumidor;
+        e, os direitos humanos, o livre desenvolvimento da personalidade, dignidade e o exercício da cidadania
+        pelas pessoas naturais.
+    </string>
 
     <!-- Textos referentes à Questão 27 -->
-    <string name="texto_pergunta_q27">
+    <string name="texto_pergunta_q27_pt1">
+        O sistema de numeração, inserido na arquitetura e no funcionamento dos computadores, sempre foi
+        muito utilizado na área computacional e pode ser escrito em diferentes bases numéricas, como: binária,
+        octal, decimal ou hexadecimal. Durante a execução dos programas, a Unidade Central de Processamento
+        (CPU) trabalha com os dados e instruções convertidos para dois estados distintos: 0 (zero) e 1 (um), que
+        podem ser entendidos como “com energia” e “sem energia”, a chamada linguagem binária ou 0 e 1.
+        Durante o processamento dos dados, instruções e os dados são armazenados no formato binário na
+        memória principal do computador. A CPU, trabalhando com dados no formato binário, aumenta sua
+        capacidade e velocidade no processamento dos dados.
+    </string>
+
+    <string name="texto_pergunta_q27_pt2">
+        Alguns exemplos dos dados, representados em diferentes bases, são utilizados nos sistemas
+        computacionais diariamente: o endereçamento IP dos computadores em uma rede são configurados na
+        base decimal pontuada se for o IPv4, exemplo: 192.168.70.10; o número do endereço MAC-Address da
+        placa de rede do computador é hexadecimal, exemplo: 00-15-5D-01-F2-00; já o sistema octal foi muito
+        utilizado na computação, como uma alternativa mais compacta do sistema binário, na programação em
+        linguagem de máquina.
+    </string>
+
+    <string name="texto_pergunta_q27_pt3">
+        Os profissionais que atuam na área da Tecnologia da Informação (TI) precisam constantemente interpretar,
+        fazer cálculos ou converter dados entre as bases binária, decimal, octal ou hexadecimal. A tabela abaixo
+        mostra os dígitos, a notação e alguns exemplos nas bases numéricas: 2, 8, 10 e 16. 
     </string>
 
     <string name="enunciado_pergunta_q27">
+        Fazendo a conversão da soma de: (1001)2 + (15)8 + (FF)16, qual é o número equivalente na base decimal?
     </string>
 
-    <string name="q27_alt_a"></string>
-    <string name="q27_alt_b"></string>
-    <string name="q27_alt_c"></string>
-    <string name="q27_alt_d"></string>
-    <string name="q27_alt_e"></string>
+    <string name="q27_alt_a">(188)10</string>
+    <string name="q27_alt_b">(215)10</string>
+    <string name="q27_alt_c">(277)10</string>
+    <string name="q27_alt_d">(316)10</string>
+    <string name="q27_alt_e">(345)10</string>
 
     <!-- Textos referentes à Questão 28 -->
-    <string name="texto_pergunta_q28">
+    <string name="texto_pergunta_q28_pt1">
+        O modo clássico de encarar um sistema operacional é como um gerenciador de recursos. Desse ponto de
+        vista, o sistema operacional é responsável pelo hardware do sistema. Nesse papel, ele recebe solicitações
+        de acesso a recursos por parte das aplicações e concede ou nega tais acessos. Ao conceder solicitações de
+        alocação, ele deve dispor com cuidado os recursos, de modo que os programas não interfiram uns nos outros.
+    </string>
+
+    <string name="texto_pergunta_q28_pt2">
+        Por exemplo, é uma péssima ideia permitir que os programas tenham acesso sem restrição à memória
+        uns dos outros. Se um programa com defeito (ou malicioso) escreve no espaço de memória do outro
+        programa, o segundo programa travará, na melhor das hipóteses, ou produzirá resultados incorretos, na
+        pior das hipóteses. Ou ainda, se o programa ofensivo modificar a memória do sistema operacional poderá
+        afetar o comportamento de todo o sistema.
+    </string>
+
+    <string name="fonte_pergunta_q28">
+        STUART. B. L. Princípios de Sistemas Operacionais: projetos e aplicações. São Paulo: Cengage Learning, 2011 (adaptado)
     </string>
 
     <string name="enunciado_pergunta_q28">
+        Considerando que o texto alerta para a possibilidade de um programa interferir no outro, a atividade que
+        um sistema operacional garante essa proteção é
     </string>
 
-    <string name="q28_alt_a"></string>
-    <string name="q28_alt_b"></string>
-    <string name="q28_alt_c"></string>
-    <string name="q28_alt_d"></string>
-    <string name="q28_alt_e"></string>
+    <string name="q28_alt_a">O programa antivírus.</string>
+    <string name="q28_alt_b">O gerenciamento de memória.</string>
+    <string name="q28_alt_c">O gerenciamento de arquivos.</string>
+    <string name="q28_alt_d">O gerenciamento de processos.</string>
+    <string name="q28_alt_e">O gerenciamento de entrada e saída.</string>
 
     <!-- Textos referentes à Questão 29 -->
     <string name="texto_pergunta_q29">

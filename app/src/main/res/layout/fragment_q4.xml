@@ -18,46 +18,47 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:visibility="invisible">
 
             <Button
                 android:id="@+id/bt_anterior"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:text="v"
                 android:layout_marginHorizontal="20dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:text="v" />
 
             <Button
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:text="@string/quatro"
                 android:layout_marginHorizontal="20dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:text="@string/quatro" />
 
             <Button
                 android:id="@+id/bt_q5"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:text="@string/cinco"
                 android:layout_marginHorizontal="20dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:text="@string/cinco" />
 
             <Button
                 android:id="@+id/bt_q6"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:text="@string/seis"
                 android:layout_marginHorizontal="20dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:text="@string/seis" />
 
             <Button
                 android:id="@+id/bt_prox"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:text=">"
                 android:layout_marginHorizontal="20dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:text=">" />
 
         </LinearLayout>
 
